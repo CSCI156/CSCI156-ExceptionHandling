@@ -6,10 +6,11 @@ def validatessnumber(s):
     ssnum = input(s)
     return ssnum
 
+
 def getssnumber(s):
     ss = validatessnumber(s)
     while ss is None:
-        ss=validatessnumber(s)
+        ss = validatessnumber(s)
     return ss
 
 print(getssnumber(inputstring))
