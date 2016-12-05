@@ -1,5 +1,5 @@
 1. Write a procedure that
-   - i. Asks the user to input their social security number. The phrasing for the question should be passed in as a string.
+   - i. Asks the user to input their social security number. The phrasing for the question should be passed in as a string, use one input only.
    - ii. Checks to make sure the input has the correct format AAA-GG-SSSS using a try except. AAA is the area number, GG is the group number, and SSSS is the serial number.
    - iii. returns the AAA, GG, and SSSS as a tuple if the user put in a valid SS number, otherwise it returns None.
 2. Write a procedure SS that calls the procedure above until the user puts in a valid SS#.
